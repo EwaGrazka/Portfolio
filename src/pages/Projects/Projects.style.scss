@@ -1,0 +1,17 @@
+.project-boxes-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  .alfabet {
+    font-family: animals;
+    font-size: 30px;
+  }
+  span.z {
+    font-family: animals;
+    font-size: 200px;
+    position: absolute;
+    z-index: -78;
+    left: 30%;
+    top: 20%;
+  }
+}

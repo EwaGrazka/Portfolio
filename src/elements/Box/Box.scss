@@ -1,0 +1,18 @@
+a {
+  text-decoration: none;
+}
+.box-container {
+  width: 200px;
+  height: 300px;
+  box-shadow: rgb(77, 38, 69) 0px 20px 30px -10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 40px;
+  cursor: pointer;
+  color: transparent;
+  background-image: url("../../img/africa-bckground.jpg");
+  background-size: 100% 100%;
+  background-clip: text;
+}

@@ -1,0 +1,27 @@
+.choice-page {
+  display: flex;
+  flex-direction: column;
+  .choice-container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .email-container {
+    text-align: center;
+    font-size: 26px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    button {
+      background-color: transparent;
+      font-size: 20px;
+      text-transform: uppercase;
+      width: 200px;
+      margin: 40px auto;
+      box-shadow: rgb(77, 38, 69) 0px 20px 30px -10px;
+      cursor: pointer;
+      border: none;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+@font-face {
+  font-family: animals;
+  src: url(../../fonts/AnimaliaScissored.ttf);
+}
+
+.icon-container {
+  font-family: animals;
+  font-size: 120px;
+  margin-top: 50px;
+  color: transparent;
+  background-image: url("../../img/africa-bckground.jpg");
+  background-size: 100% 100%;
+  background-clip: text;
+}
