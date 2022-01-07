@@ -1,13 +1,23 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Skills.style.scss';
 import CommonButton from '../../elements/CommonButton/CommonButton'
 import GoBackButton from '../../elements/GoBackButton/GoBackButton';
 import Title from '../../elements/Title/Title';
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Skills = () => {
 
+    useEffect(() => {
+        AOS.init({
+            duration: 1500
+        });
+        AOS.refresh();
+    }, []);
+
     return (
-        <div style={{ textAlign: 'center' }}>
+        <div data-aos="zoom-in" style={{ textAlign: 'center' }}>
             <Title title={'skills'} />
 
             <div className='skills-container'>

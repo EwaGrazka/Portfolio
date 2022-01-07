@@ -1,13 +1,23 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import GoBackButton from '../../elements/GoBackButton/GoBackButton';
 import ProjectBox from '../../elements/ProjectBox/ProjectBox';
 import Title from '../../elements/Title/Title';
 import './Projects.style.scss';
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Projects = () => {
 
+    useEffect(() => {
+        AOS.init({
+            duration: 1500
+        });
+        AOS.refresh();
+    }, []);
+
     return (
-        <div className='project-boxes-container'>
+        <div data-aos="zoom-in" className='project-boxes-container'>
             <Title title={'projects'} />
             <ProjectBox
                 title='Late4Drop'

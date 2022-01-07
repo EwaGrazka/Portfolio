@@ -5,11 +5,11 @@
 
 .go-back-button-container {
   position: fixed;
-  right: 0px;
-  bottom: 0px;
+  left: 0px;
+  top: 0px;
   width: 100px;
   height: 100px;
-  background: rgba(255, 255, 255, 0.411);
+  background-color: rgba(255, 255, 255, 0.411);
 
   a {
     background-color: transparent;
@@ -25,8 +25,9 @@
     align-items: center;
     flex-wrap: wrap;
     cursor: pointer;
+    transition: background-color 0.4s;
     &:hover {
-      background: #fff;
+      background-color: #fff;
     }
   }
   .back-animal {

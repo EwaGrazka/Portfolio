@@ -26,10 +26,11 @@
     padding-bottom: 21.833%;
     overflow: hidden;
     float: left;
-    background: rgba(255, 255, 255, 0.411);
+    background-color: rgba(255, 255, 255, 0.411);
     transform: rotate(45deg);
     margin: 5.5%;
     margin-top: -11%;
+    transition: background-color 0.4s;
   }
 
   .grid-item:nth-child(1),
@@ -51,7 +52,7 @@
   }
 
   .grid-item:hover {
-    background: #fff;
+    background-color: #fff;
   }
 
   .grid-inner {
