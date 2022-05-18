@@ -1,8 +1,6 @@
 .hard-skills-container {
-  background-image: url("../../img/africa-bckground.jpg");
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: cover;
+  background-image: url("../../img/bcg.jpg");
+  background-size: auto 100%;
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -26,7 +24,7 @@
     padding-bottom: 21.833%;
     overflow: hidden;
     float: left;
-    background-color: rgba(255, 255, 255, 0.411);
+    background-color: rgba(255, 255, 255, 0.7);
     transform: rotate(45deg);
     margin: 5.5%;
     margin-top: -11%;

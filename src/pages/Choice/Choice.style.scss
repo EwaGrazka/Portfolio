@@ -1,6 +1,10 @@
 .choice-page {
   display: flex;
   flex-direction: column;
+  .title-container {
+    text-align: center;
+    width: 100%;
+  }
   .choice-container {
     height: 70vh;
     display: flex;

@@ -21,7 +21,8 @@ const Box = ({ icon, title, pathname, setIsContact, isContact }) => {
             {pathname === '/github' ?
                 <a target="_blank" rel="noopener noreferrer" href="https://github.com/EwaGrazka">
                     <div data-aos="zoom-in" className='box-container'>
-                        <Icon icon={icon} />
+                        <img src={icon} style={{ height: '150px' }} />
+                        {/* <Icon icon={icon} /> */}
                         <Title title={title} />
                     </div>
                 </a> : null}
@@ -29,7 +30,9 @@ const Box = ({ icon, title, pathname, setIsContact, isContact }) => {
             {pathname === '/contact' ?
 
                 <div onClick={() => setIsContact(!isContact)} data-aos="zoom-in" className='box-container'>
-                    <Icon icon={icon} />
+                    <img src={icon} style={{ height: '150px' }} />
+
+                    {/* <Icon icon={icon} /> */}
                     <Title title={title} />
                 </div>
 
@@ -38,7 +41,9 @@ const Box = ({ icon, title, pathname, setIsContact, isContact }) => {
             {pathname !== '/github' && pathname !== '/contact' ?
                 <Link to={{ pathname: pathname }}>
                     <div data-aos="zoom-in" className='box-container'>
-                        <Icon icon={icon} />
+                        {/* <Icon icon={icon} /> */}
+                        <img src={icon} style={{ height: '120px' }} />
+
                         <Title title={title} />
                     </div>
                 </Link> : null}
